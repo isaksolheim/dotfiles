@@ -1,2 +1,2 @@
 # my dotfiles :) 
-i3, urxvt, bash and vim 
+i3, i3blocks, urxvt, bash and vim 

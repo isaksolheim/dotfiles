@@ -1,2 +1,6 @@
-# my dotfiles 
-i3, i3blocks, urxvt, bash and vim 
+# isak's dotfiles
+
+![nvim](/images/nvim.png)
+
+things found in `~/.config/`
+

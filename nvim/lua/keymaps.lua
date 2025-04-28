@@ -1,11 +1,9 @@
 vim.g.mapleader = ' '
-vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc = 'Save'})
-vim.keymap.set('n', '<leader>zm', '<cmd>ZenMode<cr>')
-vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<cr>')
 
-vim.keymap.set('n', '<Tab>', '<cmd>bnext<cr>')
-vim.keymap.set('n', '<S-Tab>', '<cmd>bprev<cr>')
-vim.keymap.set('n', 'b<Tab>', '<cmd>Bdelete<cr>')
+vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc = 'Save'})
+
+vim.keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
+vim.keymap.set("n", "<leader>ef", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Toggle file explorer on current file" })
 
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
